@@ -4,11 +4,11 @@ import notificationSchema from './notificationSchema';
 
 const sendTest = async (req, res) => {
   const values = {
-    project: 'project_name',
+    project: 'szchat',
     title: 'FCM TEST',
     message: 'MESSAGE TEST',
     token:
-      'dgDg8pxg2iY:APA91bEVE_nIu40GmVf_Do_0qDMAs9YoSBsscBKn-8QYGIVMaFLm6mfC3NThve55srvBCYaPAUGO3mnAJqU5wuLYisHEUIQS8AKxY0GZj8DNjogH5OCJPm8SbMYIpxd3UpU9vKGj_Lzo',
+      'f4a3LDw-kug:APA91bEt3FyAJ8Hr9DikmOqU0yZGCeixnFbherZYDbbuxhtOEKsUHGs1k8yQ59UAdn9eIj5YcI87j6jbrhFeGfFaFxfHbhBQK_bghPdFWcBeR6wE8zJtcgg2-W2SLKojWVqkCvLXgewK',
   };
 
   const response = await firebase(values);
